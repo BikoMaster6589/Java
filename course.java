@@ -7,8 +7,10 @@ public class course {
         this.courseId=courseId;
         this.courseName=courseName;
         this.credit=credit;
+    
     }
+
     public String getCourseInfo(){
         return ("Course id : "+courseId + ","+ "Course Name  :" + courseName + ","+ "Credit : "+credit+ ","+"\n"); 
-    }
+    }   
 }

@@ -55,5 +55,7 @@ class form extends JFrame
         form f=new form();
         f.setSize(400,300);
         f.setVisible(true);
+        System.out.println("this is the change");
     }
+
 }
